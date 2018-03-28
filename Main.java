@@ -1,24 +1,17 @@
-package oopHomeWork;
+package oppTriangle;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Cat catRodolf = new Cat();
-		catRodolf.setColor("Yellow");
-		catRodolf.setColoreyes("Blue");
-		catRodolf.setWeight(5);
-		catRodolf.setAge(8);
-		catRodolf.sleep();
-		catRodolf.miu();
+		Artrian triangle1 = new Artrian(5.4, 4.3, 5.2);
 
+		Artrian triangle2 = new Artrian(3.5, 6.3, 2.9);
+
+		System.out.println("The area of triangle 1 is: " + triangle1.calcartrian());
 		System.out.println();
-
-		Cat catTomy = new Cat("Grey", "Black", 7, 10);
-
-		System.out.println(catRodolf);
-		System.out.println(catTomy);
+		System.out.println(("The area of triangle 2 is: " + triangle2.calcartrian()));
 
 	}
 
